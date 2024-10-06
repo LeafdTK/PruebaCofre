@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "pruebacofre",
+  "version": "${version}",
+  "name": "pruebaCofre",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/LeafdTK/pruebaCofrearwhals"
+  },
+  "license": "MIT",
+  "icon": "assets/chestloot/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "org.leafd.chestloot.ChestLoot"
+    ]
+  },
+  "mixins": [
+    "mixins.chestloot.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
