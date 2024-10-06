@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "org.leafd.chestloot.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ChestBlockMixin",
+    "ChestBlockEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
